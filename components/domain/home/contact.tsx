@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import { BriefcaseBusiness, GitBranch, Mail, MapPin, Phone, Send } from "lucide-react";
 import { FormEvent, useState } from "react";
 
 const contactDetails = [
@@ -20,13 +20,13 @@ const contactDetails = [
     label: "LinkedIn",
     value: "linkedin.com/in/ange-moudzouma",
     href: "https://www.linkedin.com/in/ange-moudzouma/",
-    icon: Linkedin,
+    icon: BriefcaseBusiness,
   },
   {
     label: "GitHub",
     value: "github.com/ange-tec",
     href: "https://github.com/ange-tec",
-    icon: Github,
+    icon: GitBranch,
   },
 ];
 

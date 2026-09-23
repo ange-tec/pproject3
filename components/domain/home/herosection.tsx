@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import { ArrowRight, BriefcaseBusiness, GitBranch, Mail, Sparkles } from "lucide-react";
 import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
 
@@ -9,8 +9,8 @@ type SocialLink = {
 };
 
 const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/ange-tec", icon: Github },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/ange-moudzouma/", icon: Linkedin },
+  { label: "GitHub", href: "https://github.com/ange-tec", icon: GitBranch },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/ange-moudzouma/", icon: BriefcaseBusiness },
   { label: "Email", href: "mailto:angemoudzouma@gmail.com", icon: Mail },
 ];
 
