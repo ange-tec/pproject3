@@ -78,7 +78,7 @@ export default function ContactSection() {
 
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-4 py-2 text-sm text-slate-200">
             <MapPin className="h-4 w-4 text-violet-300" />
-            Available for internships, consulting, and digital projects
+            Available for apprenticeship, consulting, and digital projects
           </div>
         </div>
 
